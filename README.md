@@ -2,6 +2,8 @@
 
 Interactive dashboard for US air quality trends (2023–2025), built on EPA AQS monitoring data. Tracks PM2.5 AQI, Ozone AQI, and unhealthy-day counts with year-over-year comparisons across all 50 states, DC, and US territories.
 
+--> Access the [EDA AQI Dashboard](https://kimthuynh.github.io/air_quality_analysis/overview)
+
 ## Features
 
 - **Overview** — national scorecards, monthly PM2.5/Ozone trendline, interactive US choropleth map, and monthly AQI heatmap
