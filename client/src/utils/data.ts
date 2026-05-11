@@ -5,7 +5,7 @@ let cache: AQIRow[] | null = null;
 
 export async function loadData(): Promise<AQIRow[]> {
   if (cache) return cache;
-  const res = await fetch('/data/Monthly_aqi_by_state.csv');
+  const res = await fetch(`${import.meta.env.BASE_URL}data/Monthly_aqi_by_state.csv`);
   const text = await res.text();
   const { data } = Papa.parse<Record<string, string>>(text, {
     header: true,
